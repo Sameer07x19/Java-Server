@@ -17,13 +17,14 @@ This repository contains implementations of both **single-threaded** and **multi
 ├── multi-threaded/
 │   ├── Server.java
 │   ├── Client.java
-├── jmeter_test_plan.jmx
+├── Thread Group.jmx
 ```
 
 ## Installation & Usage
 ### Prerequisites
 - Java (JDK 8+)
 - Apache JMeter (for testing)
+- making your own jmeter test plan is recommended
 
 ### Running the Single-threaded Server
 ```sh
@@ -46,7 +47,7 @@ java Client
 
 ## Performance Testing with JMeter
 1. Open **Apache JMeter**.
-2. Load the JMeter test plan (`jmeter_test_plan.jmx`).
+2. Load the JMeter test plan (`Thread Group.jmx`).
 3. Configure the number of threads (users) and loop count.
 4. Start the test and analyze the results.
 
